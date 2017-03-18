@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="appchecommon">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/appchecommon/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/appchecommon/commons-configuration2-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/appchecommon/commons-io-2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
