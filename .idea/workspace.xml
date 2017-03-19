@@ -2,14 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fe41b04-10be-4e76-bce8-fa5de7eb5d37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileTool/src/main/java/com/FileUtil.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fileutil/src/main/java/com/FileUtil.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/WekaAlgorithm.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/associations/AprioriOutput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/attributeSelction/AttributeSelectionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/book/MessageClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/classifiers/CostMatrixLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/classifiers/CrossValidationAddPrediction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/classifiers/CrossValidationMultipleRuns.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/classifiers/CrossValidationSingleRun.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/classifiers/CrossValidationSingleRunVariant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/classifiers/IncrementalClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/classifiers/LoadBIF.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/classifiers/M5PExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/classifiers/OutputClassDistribution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/classifiers/WekaDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/clusterers/ClassesToClusters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/clusterers/ClusteringDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/clusterers/IncrementalClusterer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/clusterers/OutputClusterDistribution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/clusterers/VisualizeClusterAssignments.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/CreateInstances.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/DatasetAmbiguity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/MultiInstanceSwap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/OptionsToCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/OutputGzippedArff.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/Rename.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/LoadDataFromAnyFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/LoadDataFromArffFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/LoadDataFromCsvFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/LoadDataFromDbInstanceQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/LoadDataFromDbLoaderBatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/LoadDataFromDbLoaderIncremental.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/SaveDataToAnyFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/SaveDataToArffFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/SaveDataToCsvFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/SaveDataToDbBatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/converters/SaveDataToDbIncremental.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/neighboursearch/KDTreeWithMetaData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/datagenerators/GenerateData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/datagenerators/GenerateFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/experiment/ExperimentDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/filters/AddAttribute.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/filters/BatchFiltering.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/filters/Binarize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/filters/DiscretizeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/filters/FilteringOnTheFly.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/filters/RemoveMisclassifiedTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/filters/RemoveTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/filters/SingleBatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/regression_analysis/ModelProducer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TextClassification/TextClassification.iml" afterPath="$PROJECT_DIR$/TextClassification/TextClassification.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java" afterPath="$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fileutil/FileUtil.iml" afterPath="$PROJECT_DIR$/FileTool/FileTool.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fileutil/src/main/java/com/core/FileTool.java" afterPath="$PROJECT_DIR$/FileTool/src/main/java/com/core/FileTool.java" />
     </list>
     <ignored path="Work_Collection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,14 +74,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataPrepare.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataPrepare.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="228">
+              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2187#2188#0" expanded="true" />
+                <element signature="e#2219#2220#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instances.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/weka/weka.jar!/weka/core/Instances.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="101" column="53" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateInstances.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/CreateInstances.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileTool.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileTool.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/classreader/FileTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,6 +182,7 @@
       <list>
         <option value="$PROJECT_DIR$/fileutil/src/main/java/com/core/FileTool.java" />
         <option value="$PROJECT_DIR$/FileTool/src/main/java/com/core/FileTool.java" />
+        <option value="$PROJECT_DIR$/lib/weka/weka.jar!/weka/core/FastVector.class" />
         <option value="$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java" />
       </list>
     </option>
@@ -189,7 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TextClassification" />
+              <option name="myItemId" value="WekaAlgorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -203,25 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TextClassification" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Work_Collection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Work_Collection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TextClassification" />
+              <option name="myItemId" value="WekaAlgorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -229,15 +278,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classreader" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,7 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TextClassification" />
+              <option name="myItemId" value="WekaAlgorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -267,7 +308,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classifier" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,7 +322,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TextClassification" />
+              <option name="myItemId" value="WekaAlgorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -297,7 +338,189 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="analyzer" />
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work_Collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work_Collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WekaAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neighboursearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work_Collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work_Collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WekaAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="converters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work_Collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work_Collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WekaAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work_Collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work_Collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WekaAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attributeSelction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work_Collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Work_Collection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WekaAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="associations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,6 +539,7 @@
       <recent name="com.core" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\Work_Collection\WekaAlgorithm\src\main\java" />
       <recent name="E:\Project\Work_Collection\lib\log" />
       <recent name="E:\Project\Work_Collection\lib\weka" />
       <recent name="E:\Project\Work_Collection\TextClassification\src\main\java" />
@@ -613,7 +837,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489894138613</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new functions">
+      <created>1489934504906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489934504915</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -631,7 +862,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33585477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -714,16 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/classifier/Classifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2024">
@@ -742,10 +963,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/classreader/FileTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/book/MessageClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/associations/AprioriOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/weka/weka.jar!/weka/core/FastVector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WekaAlgorithm/src/main/java/com/core/CreateInstances.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/weka/weka.jar!/weka/core/Instances.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="101" column="53" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -802,7 +1075,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>FileTool</last-edited>
+          <last-edited>WekaAlgorithm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

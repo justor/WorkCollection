@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import weka.core.*;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -27,14 +28,14 @@ public class DataPrepare {
     }
 
     private void initInstance(Set<String>textType){
-        FastVector classAttributeVector = new FastVector();
+        List<String> classAttributeVector = new ArrayList<>();
         classAttributeVector.addAll(textType);
         classAttribute = new Attribute("class", classAttributeVector);
-        FastVector inputTextVector = null;           // null -> String type
+        List<String> inputTextVector = null;           // null -> String type
         textAttribute = new Attribute("text", inputTextVector);
-        FastVector thisAttributeInfo = new FastVector(2);
-        thisAttributeInfo.addElement(textAttribute);
-        thisAttributeInfo.addElement(classAttribute);
+        ArrayList<Attribute> thisAttributeInfo = new ArrayList<>(2);  // should be arrayList
+        thisAttributeInfo.add(textAttribute);
+        thisAttributeInfo.add(classAttribute);
         instances = new Instances("data set", thisAttributeInfo, 100);
         instances.setClass(classAttribute);
         instances.setClassIndex(0);
@@ -59,7 +60,6 @@ public class DataPrepare {
             inst.setValue(classAttribute, type);
             instances.add(inst);
         }else {
-            System.out.println("hava no this type : "+type);
             log.error("hava no this type : "+type);
         }
 

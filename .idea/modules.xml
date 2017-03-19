@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FileTool/FileTool.iml" filepath="$PROJECT_DIR$/FileTool/FileTool.iml" />
       <module fileurl="file://$PROJECT_DIR$/TextClassification/TextClassification.iml" filepath="$PROJECT_DIR$/TextClassification/TextClassification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WekaAlgorithm/WekaAlgorithm.iml" filepath="$PROJECT_DIR$/WekaAlgorithm/WekaAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Work_Collection.iml" filepath="$PROJECT_DIR$/Work_Collection.iml" />
     </modules>
   </component>
