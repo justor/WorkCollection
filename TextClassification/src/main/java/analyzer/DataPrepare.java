@@ -14,11 +14,12 @@ import java.util.Set;
  */
 public class DataPrepare {
     private final Logger log = LoggerFactory.getLogger(DataPrepare.class);
-
     private Attribute  classAttribute  = null;
     private Attribute  textAttribute   = null;
     private Instances  instances       = null;
     private Set<String> types = null;
+
+
 
     public DataPrepare(Set<String>textType){
         types = textType;
@@ -26,7 +27,6 @@ public class DataPrepare {
     }
 
     private void initInstance(Set<String>textType){
-
         FastVector classAttributeVector = new FastVector();
         classAttributeVector.addAll(textType);
         classAttribute = new Attribute("class", classAttributeVector);

@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fe41b04-10be-4e76-bce8-fa5de7eb5d37" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TextClassification/src/main/java/classifier/smsspam.small.arff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/log/log4j-1.2.17.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/log/slf4j-api-1.7.22.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/log/slf4j-log4j12-1.7.22.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/weka/mtj-0.9.14.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/weka/netlib-java-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/weka/weka.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/log.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/weka.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TextClassification/TextClassification.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TextClassification/src/main/java/classifier/Classifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TextClassification/src/main/java/classifier/Learner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TextClassification/src/main/java/classifier/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TextClassification/src/main/java/classifier/smstest.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TextClassification/src/main/java/classreader/FileTool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileTool/src/main/java/com/FileUtil.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fileutil/src/main/java/com/FileUtil.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Work_Collection.iml" afterPath="$PROJECT_DIR$/Work_Collection.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fileutil/fileutil.iml" afterPath="$PROJECT_DIR$/fileutil/FileUtil.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TextClassification/TextClassification.iml" afterPath="$PROJECT_DIR$/TextClassification/TextClassification.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java" afterPath="$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fileutil/FileUtil.iml" afterPath="$PROJECT_DIR$/FileTool/FileTool.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fileutil/src/main/java/com/core/FileTool.java" afterPath="$PROJECT_DIR$/FileTool/src/main/java/com/core/FileTool.java" />
     </list>
     <ignored path="Work_Collection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fileutil/src/main/java/com/FileUtil.java">
+      <file leaf-file-name="DataPrepare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileTool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fileutil/src/main/java/com/core/FileTool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="170">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,11 +42,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataPrepare.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java">
+      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileTool/src/main/java/com/FileUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileTool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileTool/src/main/java/com/core/FileTool.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileTool.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/classreader/FileTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +77,7 @@
       <file leaf-file-name="Classifier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/classifier/Classifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="-2024">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
@@ -117,6 +115,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/fileutil/src/main/java/com/core/FileTool.java" />
+        <option value="$PROJECT_DIR$/FileTool/src/main/java/com/core/FileTool.java" />
+        <option value="$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java" />
       </list>
     </option>
   </component>
@@ -210,10 +210,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -305,20 +301,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Work_Collection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Work_Collection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -330,6 +312,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/log/slf4j-log4j12-1.7.22.jar!/" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.core" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Project\Work_Collection\lib\log" />
       <recent name="E:\Project\Work_Collection\lib\weka" />
@@ -621,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489893345938</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add new functions">
+      <created>1489894138610</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489894138613</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -686,9 +678,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -700,9 +690,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fileutil/src/main/java/com/core/FileTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileTool/src/main/java/com/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileTool/src/main/java/com/core/FileTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/classifier/Classifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="-2024">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
@@ -716,20 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fileutil/src/main/java/com/core/FileTool.java">
+    <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/classreader/FileTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TextClassification/src/main/java/analyzer/DataPrepare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="500">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -788,7 +802,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TextClassification</last-edited>
+          <last-edited>FileTool</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

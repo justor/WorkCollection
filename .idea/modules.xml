@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/fileutil/FileUtil.iml" filepath="$PROJECT_DIR$/fileutil/FileUtil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileTool/FileTool.iml" filepath="$PROJECT_DIR$/FileTool/FileTool.iml" />
       <module fileurl="file://$PROJECT_DIR$/TextClassification/TextClassification.iml" filepath="$PROJECT_DIR$/TextClassification/TextClassification.iml" />
       <module fileurl="file://$PROJECT_DIR$/Work_Collection.iml" filepath="$PROJECT_DIR$/Work_Collection.iml" />
     </modules>
