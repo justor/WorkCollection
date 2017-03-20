@@ -3,10 +3,8 @@ package classreader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.io.*;
+import java.util.*;
 
 /**
  * Created by Administrator on 2017/2/8 0008.
@@ -15,7 +13,7 @@ public class FileTool {
     private final Logger LOGGER = LoggerFactory.getLogger(FileTool.class);
 
     private String parentPath;
-    private Map<String,List<String>> fileTypes;
+    private Map<String,List<File>> fileTypes = new HashMap<>();
 
     /**
      * filePath is the parent path of the types as filePath--->types--->file1...filen
@@ -34,14 +32,27 @@ public class FileTool {
             for(File type :types){
                 if(type.isDirectory()){
                     File[] childFiles = type.listFiles();
-                    List<String> files = new ArrayList<>();
-                    for(File childFile : childFiles ){
-                        files.add(childFile.getAbsolutePath());
-                    }
-                    fileTypes.put(type.getAbsolutePath(),files);
+                    List<File> files = new ArrayList<>();
+                    files.addAll(Arrays.asList(childFiles));
+                    fileTypes.put(type.getName(),files);
                 }
             }
         }
+    }
+
+    public Map<String,List<File>> getFileTypes(){
+        return fileTypes;
+    }
+
+    public static String readFile(File file) throws FileNotFoundException,IOException{
+        FileReader reader = new FileReader(file);
+        BufferedReader bufferedReader = new BufferedReader(reader);
+        StringBuffer buffer = new StringBuffer();
+        String line = null;
+        while ((line = bufferedReader.readLine())!=null){
+            buffer.append(line);
+        }
+        return buffer.toString();
     }
 
 
